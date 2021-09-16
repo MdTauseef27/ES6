@@ -1,5 +1,5 @@
 const func = () => {
-  let n = 153;
+  let n = 433;
   let r;
   let sum = 0;
   let temp = n;
@@ -7,7 +7,7 @@ const func = () => {
   while (n > 0) {
     r = n % 10;
     sum = sum + r * r * r;
-    n = n / 10;
+    n = Math.floor(n / 10);
   }
 
   if (temp == sum) {
