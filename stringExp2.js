@@ -1,4 +1,6 @@
 const stringExp2 = () => {
   let txt = "abcdefghijklmnopqstuvwxyz";
-  txt.length();
+  let txt1 = txt.length;
+  console.log(txt);
 };
+stringExp2();
